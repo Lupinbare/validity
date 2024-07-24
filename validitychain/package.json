@@ -1,7 +1,7 @@
 {
   "name": "validitychain",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1.2",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "teaboot": "^1.2.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
-  }
+    "typescript": "^5"
+  },
+  "description": "validity chain",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lupinbare/validity"
+  },
+  "keywords": [
+    "chain"
+  ],
+  "author": "0xlupin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lupinbare/validity/issues"
+  },
+  "homepage": "https://github.com/Lupinbare/validity#readme"
 }
